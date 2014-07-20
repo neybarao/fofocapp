@@ -1,4 +1,7 @@
-fofocapp
-========
+Fofocapp
+=============
 
-Landing page for Fofocapp app
+Responsive landing page for Fofocapp
+
+##URL
+http://fofocapp.com/
