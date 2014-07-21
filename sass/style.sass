@@ -8,55 +8,45 @@ body
 	background-size: cover
 	background-color: #464646
 	font-family: "Roboto"
+	color: white
 	// SHORTHAND CSS NOTATION
 	// background: url(background-photo.jpg) center center cover no-repeat fixed;
 
-.container
-	text-align: center
-
 #logo
-	position: absolute
-	top: 40%
-	left: 50%
-	margin-left: -110px
-	margin-top: -22px
+	margin-top: 50px
+
+#galaxy
+	margin-top: 50px
+
+h1
+	font-family: "Montserrat"
+	text-transform: uppercase
+	font-size: 54px
+h2
+	font-weight: 100
+	font-size: 36px
+	margin-bottom: 20px
 
 #footer
-	position: absolute
+	position: fixed
 	bottom: 0
 	width: 100%
 	font-size: 14px
 	background: #170221
+	padding: 15px
+	box-sizing: border-box
+	text-align: right
 
 /* For mobile devices */
 @media only screen and (max-width: 767px)
 	body
 		background-image: url(../gfx/background-photo-mobile-devices.jpg)
+		text-align: center
 
-	#logo
-		position: absolute
-		top: 35%
-		left: 50%
-		margin-left: -110px
-		margin-top: -22px
+	h1
+		font-size: 36px
+	h2
+		font-size: 24px
 
-	#contact
-		background-color: #E51C23
-		border-top: 2px solid #AC151A
-		overflow: hidden
-		padding: 10px 0
-		margin: 0
-
-		ul
-			list-style-type: none
-			margin: 0
-			padding: 0
-			padding-left: 20px
-			a
-				color: white
-				display: block
-				border-bottom: 1px solid #AC151A
-				padding: 15px 0
-				text-decoration: none
-				&.noborder
-					border: none
+	#footer
+		position: fixed
